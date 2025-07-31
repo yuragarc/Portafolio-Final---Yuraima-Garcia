@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Definición de fuente para el cuerpo */
+    background-color: #f9f9f9; /* Color de fondo */
+    color: #333; /* Color del texto */
+}
+
+header {
+    background-color: #4A148C; /* Color de fondo del encabezado */
+    padding: 15px 20px; /* Espaciado interno */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre los elementos */
+    align-items: center; /* Alinear verticalmente */
+}
+
+nav h1 {
+    color: white; /* Color del título */
+}
+
+nav ul {
+    list-style: none; /* Eliminar los puntos de las listas */
+    display: flex; /* Para mostrar los elementos en línea */
+    gap: 20px; /* Espacio entre los enlaces */
+}
+
+nav ul li a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición de color */
+}
+
+nav ul li a:hover {
+    color: #D1C4E9; /* Color al pasar el mouse */
+}
+
+.hero {
+    text-align: center; /* Centrar el texto */
+    padding: 40px 20px; /* Espaciado interno */
+    background-color: #EDE7F6; /* Color de fondo de la sección */
+}
+
+section {
+    background-color: white; /* Color de fondo de las secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin: 20px 0; /* Margen externo */
+    padding: 40px 20px; /* Espaciado interno */
+}
+
+h2, h3 {
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+h3 {
+    color: #4A148C; /* Color de los subtítulos */
+}
+
+.perfil-cont {
+    display: flex; /* Para centrar la imagen */
+    justify-content: center; /* Centrar horizontalmente */
+}
+
+.perfil-img {
+    border-radius: 50%; /* Imagen redondeada */
+    width: 150px; /* Ajuste del tamaño de la imagen */
+    height: auto; /* Altura automática mantenida */
+}
+
+#fortalezas {
+    display: flex;
+    flex-wrap: wrap; /* Permitir el ajuste de elementos */
+}
+
+#fortalezas button {
+    flex: 1 1 30%; /* Tamaño de los botones */
+    margin: 5px; /* Margen entre botones */
+    padding: 10px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #EDE7F6; /* Color de fondo de los botones */
+    color: #4A148C; /* Color del texto del botón */
+    cursor: pointer; /* Cambiar cursor */
+    transition: background-color 0.3s; /* Transición de fondo */
+}
+
+#fortalezas button:hover {
+    background-color: #D1C4E9; /* Fondo al pasar el mouse */
+}
+
+#contacto {
+    padding: 40px 20px; /* Espaciado interno */
+    background: #EDE7F6; /* Color de fondo */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Colocar campos en columna */
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar formulario */
+}
+
+form input, form textarea {
+    padding: 12px; /* Espacio interno */
+    margin: 10px 0; /* Espacio entre campos */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 100%; /* Completo ancho */
+}
+
+form button {
+    background-color: #4A148C; /* Fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 12px; /* Espacio interno */
+    cursor: pointer; /* Cambiar cursor */
+    margin-top: 10px; /* Margen superior */
+    transition: background-color 0.3s; /* Transición de color */
+}
+
+form button:hover {
+    background-color: #6A1B9A; /* Cambio al pasar el mouse */
+}
+
+.contact-message {
+    padding: 20px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f3e5f5; /* Color de fondo del mensaje */
+    text-align: center; /* Centrar el texto */
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center; /* Centrar los iconos */
+    gap: 20px; /* Espacio entre iconos */
+}
+
+.contact-info a {
+    text-decoration: none; /* Sin subrayado */
+    color: inherit; /* Color heredado */
+}
+
+footer {
+    text-align: center; /* Centrar el texto */
+    padding: 20px; /* Espaciado interno */
+    background-color: #4A148C; /* Color de fondo del pie de página */
+    color: white; /* Color del texto */
+}
+
+.icon {
+    width: 32px; /* Tamaño aumentado de los iconos */
+    height: 32px; /* Tamaño aumentado de los iconos */
+    vertical-align: middle; /* Alinear verticalmente */
+    color: #4A148C; /* Color del icono */
+    transition: color 0.3s; /* Transición de color */
+}
+
+#habilidades {
+    padding: 40px 20px; /* Espaciado interno */
+}
+
+#habilidades ul {
+    list-style: none; /* Eliminar la lista de estilo */
+}
+
+#habilidades li {
+    padding-left: 1.5em; /* Espacio a la izquierda */
+    position: relative; /* Posición relativa */
+}
+
+#habilidades li:before {
+    content: "•"; /* Punto de habilidades */
+    position: absolute; /* Posición absoluta del punto */
+    left: 0; /* Alinear a la izquierda */
+}
+
+/* Efecto de desplazamiento suave */
+html {
+    scroll-behavior: smooth; /* Efecto suave al desplazarse */
+}
+
+/* Filtros para pantallas pequeñas */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Colocar elementos en columna */
+        gap: 10px; /* Espacio entre enlaces */
+    }
+
+    #fortalezas button {
+        flex: 1 1 45%; /* Adaptar botones en pantallas pequeñas */
+    }
+}
