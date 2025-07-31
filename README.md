@@ -1,6 +1,6 @@
 # Informe del Portafolio
 
-¡Bienvenido a un recorrido por mi trayectoria profesional y habilidades en el apasionante mundo de la seguridad informática y gestión de proyectos! Este portafolio, alojado en [https://yuragarc.github.io/Prueba-2-Final/](https://yuragarc.github.io/Prueba-2-Final/), ofrece una visión clara y dinámica de mi experiencia, conocimientos y logros.
+¡Bienvenido a un recorrido por mi trayectoria profesional y habilidades en el apasionante mundo de la seguridad informática y gestión de proyectos! Este portafolio, alojado en [[https://yuragarc.github.io/Prueba-2-Final/](https://yuragarc.github.io/Prueba-2-Final/)](https://yuragarc.github.io/Portafolio-Final---Yuraima-Garcia/), ofrece una visión clara y dinámica de mi experiencia, conocimientos y logros.
 
 ### Destacados que impulsan mi perfil:
 
